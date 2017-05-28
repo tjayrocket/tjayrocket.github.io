@@ -1,8 +1,7 @@
 body {
-  background-image: url(../images/scary.jpg);
+  background-image: url(../images/ScaryMobile2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 #top-bar {
   width: 100%:
@@ -22,10 +21,7 @@ body {
   margin-bottom: 10%;
 }
 #stationary-block{
-  clear: both;
-  max-width: 49%;
-  display: inline-block;
-  float: right;
+  visibility: hidden;
 }
 #toon{
   width: 100%;
