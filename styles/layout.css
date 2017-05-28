@@ -1,0 +1,80 @@
+body {
+  background-image: url(../images/scary.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#top-bar {
+  width: 100%:
+}
+#tjay-name {
+  max-width: 100%;
+}
+#nav-div{
+  width: 100%;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+}
+#content-block {
+  width: 45%;
+  display: inline-block;
+  margin-bottom: 10%;
+}
+#stationary-block{
+  clear: both;
+  max-width: 49%;
+  display: inline-block;
+  float: right;
+}
+#toon{
+  width: 100%;
+  display: block;
+}
+.tablinks {
+  top: 0;
+  width: 24%;
+  margin: auto;
+  background-color: #222;
+  font-size: 1.5em;
+  font-family: 'Permanent Marker', sans-serif;
+  height: 100%;
+  border: none;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.5;
+}
+#bottom-bar {
+  height: 6%;
+  width: 100%;
+  max-width: 960px;
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+#links{
+  list-style: none;
+}
+.icon-menu {
+  visibility: visible;
+}
+#links li{
+  font-size: 1em;
+  padding: 10px;
+  display: inline;
+  visibility: hidden;
+}
+#logo{
+  margin-top: 1%;
+  height: 60px;
+  width: 75px;
+  text-align: center;
+}
+a {
+  color: #000;
+}
+h1{
+  font-family: 'Permanent Marker', sans-serif;
+}

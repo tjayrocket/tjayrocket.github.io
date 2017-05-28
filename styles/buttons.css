@@ -1,0 +1,25 @@
+.tablinks {
+  top: 0;
+  width: 24%;
+  margin: auto;
+  background-color: #222;
+  font-size: 1.5em;
+  font-family: 'Permanent Marker', sans-serif;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #888;
+  color: white;
+}
+
+button {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+  color: white;
+}
+
+button:hover {
+  opacity: 1;
+  z-index: -1;
+}
