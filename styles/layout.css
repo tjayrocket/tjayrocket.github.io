@@ -16,6 +16,13 @@
   font-family: 'Permanent Marker', sans-serif;
   font-size: 8em;
 }
+#about-text {
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 3em;
+}
 #bottom-bar {
   height: 10%;
   width: 100%;
