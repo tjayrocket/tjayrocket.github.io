@@ -26,61 +26,61 @@
 
 .icon-home:before {
   content: "\e900";
-  color: #777;
+  color: #555;
   font-size: 3em;
 }
 .icon-menu:before {
   content: "\e9bd";
-  color: #777;
+  color: #555;
   font-size: 2em;
 }
 .icon-star-full:before {
   content: "\e9d9";
-  color: #777;
+  color: #555;
   font-size: 3em;
 }
 .icon-neutral:before {
   content: "\e9f7";
-  color: #777;
+  color: #555;
   font-size: 3em;
 }
 .icon-cross:before {
   content: "\ea0f";
-  color: #777;
+  color: #555;
   font-size: 2em;
 }
 .icon-checkmark:before {
   content: "\ea10";
-  color: #777;
+  color: #555;
   font-size: 2em;
 }
 .icon-embed2:before {
   content: "\ea80";
-  color: #777;
+  color: #555;
   font-size: 2em;
 }
 .icon-facebook2:before {
   content: "\ea91";
-  color: #777;
+  color: #555;
   font-size: 3em;
 }
 .icon-twitter:before {
   content: "\ea96";
-  color: #777;
+  color: #555;
   font-size: 3em;
 }
 .icon-twitch:before {
   content: "\ea9f";
-  color: #777;
+  color: #555;
   font-size: 3em;
 }
 .icon-github:before {
   content: "\eab0";
-  color: #777;
+  color: #555;
   font-size: 3em;
 }
 .icon-linkedin:before {
   content: "\eac9";
-  color: #777;
+  color: #555;
   font-size: 3em;
 }

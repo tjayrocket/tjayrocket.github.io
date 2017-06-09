@@ -1,77 +1,34 @@
-body {
-  background-image: url(../images/ScaryMobile2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#top-bar {
-  width: 100%:
-}
-#tjay-name {
-  max-width: 100%;
-}
-#nav-div{
+#top-bar{
+  height: 10%;
   width: 100%;
-  padding: 5px;
-  margin: auto;
+  background-color: #000;
+  position: fixed;
+  top: 0;
   text-align: center;
 }
-#content-block {
-  width: 45%;
-  display: inline-block;
-  margin-bottom: 10%;
+.main-nav{
 }
-#stationary-block{
-  visibility: hidden;
-}
-#toon{
-  width: 100%;
-  display: block;
-}
-.tablinks {
-  top: 0;
-  width: 24%;
-  margin: auto;
-  background-color: #222;
-  font-size: 1.5em;
+#name{
+  margin-top: 15%;
+  color: white;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
   font-family: 'Permanent Marker', sans-serif;
-  height: 100%;
-  border: none;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
-  opacity: 0.5;
+  font-size: 8em;
 }
 #bottom-bar {
   height: 10%;
   width: 100%;
-  max-width: 960px;
   background-color: #000;
   position: fixed;
   bottom: 0;
   text-align: center;
 }
-#links{
+li{
   list-style: none;
+  display: inline-block;
 }
-.icon-menu {
-  visibility: visible;
-}
-#links li{
-  font-size: 1em;
-  top: 5px;
-  padding: 5px;
-  display: inline;
-  visibility: hidden;
-}
-#logo{
-  margin-top: 1%;
-  height: 60px;
-  width: 75px;
-  text-align: center;
-}
-a {
-  color: #000;
-}
-h1{
-  font-family: 'Permanent Marker', sans-serif;
+
+a{
+  color: white;
 }

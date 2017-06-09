@@ -3,68 +3,30 @@
 <html>
   <head>
     <title>T.Jay Rocket</title>
-    <link rel="stylesheet" type="text/css" href="styles/base.css">
-    <link rel="stylesheet" type="text/css" href="styles/layout.css">
-    <link rel="stylesheet" type="text/css" href="styles/modules.css">
-    <link rel="stylesheet" type="text/css" href="styles/buttons.css">
-    <link rel="stylesheet" href="styles/icons.css">
+    <link href="styles/base.css" rel="stylesheet" type="text/css">
+    <link href="styles/layout.css" rel="stylesheet" type="text/css">
+    <link href="styles/icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway" rel="stylesheet">
-    <script id="div-content" type="text/x-handlebars-template">
-    <h1 class="content-head">{{title}}<h1>
-    <br>
-    <img class="content-image" src="{{image}}"><a href={{sourceUrl}}></a><img>
-    <br>
-    <p>{{textBlock}}</p>
-    <br>
-    </script>
   </head>
   <body>
-    <header class="site-head clearfix">
-      <section class="head-group">
-        <div id="top-bar">
-          <img id="tjay-name" src="images/TJayHeadline.png"/>
-        </div>
-        <div id="page-nav-full" class="tab">
-          <button id="home-screen" class="tablinks">Home</button>
-          <button id="about-me" class="tablinks">About Me</button>
-          <button id="developer-me" class="tablinks">Developer</button>
-          <button id="music-me" class="tablinks">Musician</button>
-        </div>
-      </section>
-    </header>
-    <main>
-      <div id="content-block" class="content-div">
+    <div id="top-bar"></div>
+
+    <p id="name">T.Jay Rocket</p>
+    <nav class="main-nav">
+       <div id="nav-div">
+        <ul id="links">
+          <li><a href="https://www.facebook.com/tjayrocket" target="_blank" class="icon-facebook2"> </a></li>
+          <li><a href="https://twitter.com/tjayrocket" target="_blank" class="icon-twitter"> </a></li>
+          <li><a href="https://github.com/tjayrocket" target="_blank" class="icon-github"> </a></li>
+          <li><a href="https://www.linkedin.com/in/tjayrocket/" target="_blank" class="icon-linkedin"> </a></li>
+          <li><a href="https://www.twitch.tv/tjayrocket" target="_blank" class="icon-twitch"> </a></li>
+          <li><a href="https://www.reverbnation.com/tjayrocket" target="_blank" class="icon-star-full"> </a></li>
+        </ul>
       </div>
-      <div id="stationary-block">
+    </nav>
+
+    <div id="bottom-bar">
       </div>
-    </main>
-    <footer>
-      <div id="bottom-bar">
-        <nav class="main-nav">
-          
-          <div id="nav-div">
-            <ul id="links">
-              <li class="info-tab"><a href="#" data-content="home" class="icon-home"> </a></li>
-              <li class="info-tab"><a href="#" data-content="about" class="icon-neutral"> </a></li>
-              <li><a href="https://www.facebook.com/tjayrocket" target="_blank" class="icon-facebook2"> </a></li>
-              <li><a href="https://twitter.com/tjayrocket" target="_blank" class="icon-twitter"> </a></li>
-              <li><a href="https://github.com/tjayrocket" target="_blank" class="icon-github"> </a></li>
-              <li><a href="https://www.linkedin.com/in/tjayrocket/" target="_blank" class="icon-linkedin"> </a></li>
-              <li><a href="https://www.twitch.tv/tjayrocket" target="_blank" class="icon-twitch"> </a></li>
-              <li><a href="https://www.reverbnation.com/tjayrocket" target="_blank" class="icon-star-full"> </a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.js"></script>
-    <script src="scripts/nav.js"></script>
-    <script src="scripts/content.js"></script>
-    <script src="scripts/contentView.js"></script>
-    <script src="scripts/buttonView.js"></script>
-    <script>app.Content.fetchAll(contentView.initIndexPage);</script>
+
   </body>
 </html>
