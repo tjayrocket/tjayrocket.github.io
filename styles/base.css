@@ -13,8 +13,13 @@ body {
   z-index: 1;
   text-align: center;
 }
+#toon{
+  margin-top: 10%;
+}
 #headline{
   width: 100%;
+  top: 0;
+  text-align: center;
 }
 #bottom-bar{
   height: 8%;
@@ -47,10 +52,6 @@ body {
 }
 script{
   visibility: hidden;
-}
-#headline{
-  top: 0;
-  text-align: center;
 }
 li{
   display: inline;
