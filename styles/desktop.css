@@ -1,0 +1,28 @@
+@media only screen and (min-width: 1025px) {
+
+#headline{
+  width: 75%;
+}
+
+body {
+  background-color: #444;
+  background-image: url('../images/street.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 75%;
+}
+#top-bar{
+  height: 10%;
+}
+li{
+  font-size: 3em;
+}
+#toon{
+  height: 800px;
+  width: 550px;
+}
+#content-div{
+  padding-top: 100px;
+  text-align: center;
+}
+}
