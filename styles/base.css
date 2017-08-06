@@ -1,9 +1,9 @@
 body {
   background-color: #444;
-  background-image: url('../images/street.png');
+  background-image: url('../images/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
 }
 #top-bar{
   height: 5%;
@@ -27,7 +27,6 @@ body {
   bottom: 0;
   text-align: center;
   position: fixed;
-  margin-top: 10px;
   z-index: 1;
   padding: 10px;
 }
