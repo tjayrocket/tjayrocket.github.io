@@ -13,9 +13,6 @@ body {
   z-index: 1;
   text-align: center;
 }
-#toon{
-  margin-top: 10%;
-}
 #headline{
   width: 100%;
   top: 0;
@@ -39,18 +36,19 @@ body {
   margin-top: 10%;
   padding: 0;
 }
-#left-content-div{
-  top: 0;
-  width: 49%;
-  background-color: red;
-  display: inline-block;
+#top-content-div{
+  text-align: center;
+  padding-top: 10%;
 }
-#right-content-div{
-  width: 49%;
-  display: inline-block;
+#bottom-content-div{
+  text-align: center;
+  padding-bottom: 10%;
 }
-script{
-  visibility: hidden;
+#hamburger{
+  font-size: 4em;
+  color: white;
+  border: none;
+  background-color: black;
 }
 li{
   display: inline;
@@ -60,4 +58,28 @@ li{
 a{
   color: white;
   text-decoration: none;
+}
+
+#show{
+  margin-top: 5%;
+  border: 2px #222 solid;
+  background-color: #444;
+  font-size: 2em;
+}
+
+button{
+  width: 75%;
+  border: none;
+  background-color: Transparent;
+  opacity: .8;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  color: white;
+  font-family: 'Bowlby One SC', cursive;
+  font-size: 4em;
+  -webkit-text-stroke: 1px #222;
+}
+button:hover{
+  opacity: 1;
+  -webkit-animation-name: fadeIn;
 }

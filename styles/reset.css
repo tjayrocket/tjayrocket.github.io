@@ -12,3 +12,10 @@
 .right{
   float: right;
 }
+
+script{
+  visibility: hidden;
+}
+*:focus {
+  outline: none;
+}

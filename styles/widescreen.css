@@ -1,7 +1,7 @@
-@media only screen and (min-width: 1028px) {
+@media only screen and (min-width: 1200px) {
 
 #headline{
-  width: 75%;
+  width: 50%;
 }
 
 body {
@@ -9,17 +9,13 @@ body {
   background-image: url('../images/bg.png');
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: 75%;
+  background-size: 50%;
 }
 #top-bar{
   height: 10%;
 }
 li{
   font-size: 3em;
-}
-#toon{
-  height: 900px;
-  width: 600px;
 }
 #content-div{
   padding-top: 100px;
@@ -33,5 +29,8 @@ li{
 }
 .hamburger-open{
   visibility: hidden;
+}
+button{
+  display: inline;
 }
 }
