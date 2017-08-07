@@ -21,6 +21,14 @@ li{
   padding-top: 100px;
   text-align: center;
 }
+#top-content-div{
+  /*visibility: hidden;*/
+  padding-top: 0;
+}
+#bottom-content-div{
+  display: inline;
+  visibility: visible;
+}
 #nav-div{
   visibility: visible;
 }
@@ -32,6 +40,7 @@ li{
 }
 button{
   display: inline;
+  width: 30%;
 }
 #show{
   border: 2px #222 solid;
