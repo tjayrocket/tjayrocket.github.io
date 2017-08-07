@@ -19,3 +19,12 @@ script{
 *:focus {
   outline: none;
 }
+a{
+  color: #fff;
+  text-decoration: none;
+  -webkit-text-stroke: 2px black;
+}
+li{
+  display: inline;
+  font-size: 4em;
+}

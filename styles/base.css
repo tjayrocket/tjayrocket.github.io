@@ -5,6 +5,7 @@ body {
   background-size: cover;
   background-position: top center;
 }
+
 #top-bar{
   height: 5%;
   background-color: #000;
@@ -13,20 +14,13 @@ body {
   z-index: 1;
   text-align: center;
 }
+
 #headline{
   width: 100%;
   top: 0;
   text-align: center;
 }
-#bottom-bar{
-  height: 8%;
-  background-color: #000;
-  bottom: 0;
-  text-align: center;
-  position: fixed;
-  z-index: 1;
-  padding: 10px;
-}
+
 #content-div{
   z-index: 0;
   height: 100%;
@@ -36,28 +30,10 @@ body {
   margin-top: 10%;
   padding: 0;
 }
+
 #top-content-div{
   text-align: center;
   padding-top: 10%;
-}
-#bottom-content-div{
-  text-align: center;
-  padding-bottom: 10%;
-}
-#hamburger{
-  font-size: 4em;
-  color: white;
-  border: none;
-  background-color: black;
-}
-li{
-  display: inline;
-  font-size: 4em;
-}
-
-a{
-  color: white;
-  text-decoration: none;
 }
 
 #show{
@@ -67,6 +43,21 @@ a{
   font-size: 2em;
 }
 
+#bottom-content-div{
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+#bottom-bar{
+  height: 8%;
+  background-color: #000;
+  bottom: 0;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+  padding: 10px;
+}
+
 button{
   width: 75%;
   border: none;
@@ -74,10 +65,9 @@ button{
   opacity: .8;
   display: inline-block;
   transition: all 0.3s ease 0s;
-  color: white;
+  color: #fff;
   font-family: 'Bowlby One SC', cursive;
   font-size: 4em;
-  -webkit-text-stroke: 2px #222;
 }
 button:hover{
   opacity: 1;
