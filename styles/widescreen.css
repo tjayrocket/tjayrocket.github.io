@@ -1,50 +1,41 @@
 @media only screen and (min-width: 1200px) {
 
-#headline{
-  width: 50%;
-}
+  body {
+    background-color: #444;
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 50%;
+  }
 
-body {
-  background-color: #444;
-  background-image: url('../images/bg.png');
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 50%;
-}
-#top-bar{
-  height: 10%;
-}
-li{
-  font-size: 3em;
-}
-#content-div{
-  padding-top: 100px;
-  text-align: center;
-}
-#top-content-div{
-  /*visibility: hidden;*/
-  padding-top: 0;
-}
-#bottom-content-div{
-  display: inline;
-  visibility: visible;
-}
-#nav-div{
-  visibility: visible;
-}
-.icon-menu{
-  visibility: hidden;
-}
-.hamburger-open{
-  visibility: hidden;
-}
-button{
-  display: inline;
-  width: 30%;
-}
-#show{
-  border: 2px #222 solid;
-  background-color: #444;
-  font-size: 2em;
-}
+  #headline{
+    width: 50%;
+  }
+
+  #content-div{
+    text-align: center;
+  }
+
+  #top-content-div{
+    padding-top: 0;
+  }
+
+  #show{
+    width: 50%;
+    font-size: 1.5em;
+  }
+
+  #nav-div{
+    visibility: visible;
+  }
+
+  button{
+    width: 20%;
+    font-size: 2em;
+  }
+
+  li{
+    font-size: 4em;
+  }
+
 }

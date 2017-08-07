@@ -1,6 +1,7 @@
 'use strict';
 
 $('#bottom-content-div').hide();
+$('#show').fadeIn(500);
 
 $('#show').on('click', function(){
   $('#bottom-content-div').fadeIn(500);

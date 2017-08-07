@@ -58,6 +58,10 @@ body {
   padding: 10px;
 }
 
+#nav-div{
+  -webkit-text-stroke: none;
+}
+
 button{
   width: 75%;
   border: none;
