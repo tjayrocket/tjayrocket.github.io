@@ -1,0 +1,15 @@
+{
+  "short_name": "T.Jay Rocket",
+  "name": "T.Jay Rocket Home Page",
+  "icons": [
+    {
+      "src": "cropped-R-favicon-1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./tjayrocket/index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

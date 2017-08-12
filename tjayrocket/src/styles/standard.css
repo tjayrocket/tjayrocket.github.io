@@ -1,0 +1,14 @@
+@media only screen and (min-width: 768px) {
+
+body {
+  width: 768px;
+}
+.TJay-logo {
+  width: 100%;
+}
+
+.App-bottom-div {
+  width: 768px;
+}
+
+}
