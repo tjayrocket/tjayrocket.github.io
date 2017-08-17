@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('styles/fonts/icomoon.eot');
+  src:  url('styles/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf') format('truetype'),
+    url('fonts/icomoon.woff') format('woff'),
+    url('styles/fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+  color: #555;
+  font-size: 3em;
+}
+.icon-menu:before {
+  content: "\e9bd";
+  color: #555;
+  font-size: 2em;
+}
+.icon-star-full:before {
+  content: "\e9d9";
+  color: #555;
+  font-size: 3em;
+}
+.icon-neutral:before {
+  content: "\e9f7";
+  color: #555;
+  font-size: 3em;
+}
+.icon-cross:before {
+  content: "\ea0f";
+  color: #555;
+  font-size: 2em;
+}
+.icon-checkmark:before {
+  content: "\ea10";
+  color: #555;
+  font-size: 2em;
+}
+.icon-embed2:before {
+  content: "\ea80";
+  color: #555;
+  font-size: 2em;
+}
+.icon-facebook2:before {
+  content: "\ea91";
+  color: #555;
+  font-size: 3em;
+}
+.icon-twitter:before {
+  content: "\ea96";
+  color: #555;
+  font-size: 3em;
+}
+.icon-twitch:before {
+  content: "\ea9f";
+  color: #555;
+  font-size: 3em;
+}
+.icon-github:before {
+  content: "\eab0";
+  color: #555;
+  font-size: 3em;
+}
+.icon-linkedin:before {
+  content: "\eac9";
+  color: #555;
+  font-size: 3em;
+}
