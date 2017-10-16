@@ -2,6 +2,7 @@ body{
   background-image: url('../assets/city.jpg');
   background-repeat: no-repeat;
   background-position-x: center;
+  background-attachment: fixed;
   background-size: 960px;
   background-color: #444;
 }
@@ -16,6 +17,7 @@ body{
 }
 #toon{
   margin-top: 10%;
+  overflow: hidden;
 }
 #about-text {
   color: white;

@@ -1,0 +1,23 @@
+{
+  "name": "tjayrocket.github.io",
+  "version": "1.0.0",
+  "description": "T.Jay Rocket Homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjayrocket/tjayrocket.github.io.git"
+  },
+  "keywords": [
+    "T.Jay",
+    "Rocket"
+  ],
+  "author": "T.Jay Rocket",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjayrocket/tjayrocket.github.io/issues"
+  },
+  "homepage": "https://github.com/tjayrocket/tjayrocket.github.io#readme"
+}
