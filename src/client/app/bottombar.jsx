@@ -1,23 +1,14 @@
-<!DOCTYPE html>
+import React from 'react';
 
-<html>
-  <head>
-    <title>T.Jay Rocket</title>
-    <link href="styles/base.css" rel="stylesheet" type="text/css">
-    <link href="styles/layout.css" rel="stylesheet" type="text/css">
-    <link href="styles/icons.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway" rel="stylesheet">
-  </head>
-  <body>
-    <div id="top-bar">
-        <img id="name" src="./assets/TJayLetterHead.png" />
-    </div>
+class BottomBar extends React.Component {
 
-    <div id="toon">
-      <img src="./assets/tjaytoonfull.png"
-    </div>
+  constructor(props){
+    super(props);
+  };
 
-    <div id="bottom-bar">
+  render() {
+    return (
+      <div id="bottom-bar">
         <div id="info">
             <p id="resume"><a href="https://tjayrocket.github.io/TJay-Hanschen-Resume/" target="_blank">Resume</a> and <a href="https://tjayrocket.github.io/tjay-hanschen-portfolio/" target="_blank">Portfolio</a></p>
         </div>
@@ -34,6 +25,9 @@
            </div>
          </nav>
       </div>
+    );
+  }
 
-  </body>
-</html>
+}
+
+export default BottomBar;
