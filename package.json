@@ -2,7 +2,7 @@
   "name": "tjayrocket.github.io",
   "version": "1.0.0",
   "description": "T.Jay Rocket Homepage",
-  "main": "./src/index.html",
+  "main": "./src/client/index.html",
   "scripts": {
     "dev": "webpack -d --watch",
     "build": "webpack -p",
