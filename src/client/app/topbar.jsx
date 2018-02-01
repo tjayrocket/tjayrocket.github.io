@@ -9,7 +9,7 @@ class TopBar extends React.Component {
   render() {
     return ( 
       <div id="top-bar">
-        <img id="name" src="./assets/tjayletterhead.png" />
+        <img id="name" src="../assets/tjayletterhead.png" />
       </div>
     );
   }
