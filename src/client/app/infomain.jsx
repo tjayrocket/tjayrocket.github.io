@@ -9,7 +9,7 @@ class InfoMain extends React.Component {
   render() {
     return ( 
       <div id="toon">
-        <img src="../assets/tjaytoonfull.png" />
+        <img src="./tjayrocket.github.io/src/client/assets/tjaytoonfull.png" />
       </div>
     );
   }
