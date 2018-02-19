@@ -18,6 +18,7 @@ body{
 #toon{
   margin-top: 10%;
   overflow: hidden;
+  width: 100%;
 }
 #about-text {
   color: white;
