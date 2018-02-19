@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack -d --watch",
     "build": "webpack -p",
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
