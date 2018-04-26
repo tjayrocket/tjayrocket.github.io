@@ -1,5 +1,5 @@
 body{
-  background-image: url('../assets/city.jpg');
+  background-image: url('../assets/citytoon.png');
   background-repeat: no-repeat;
   background-position-x: center;
   background-attachment: fixed;
@@ -15,11 +15,9 @@ body{
   top: 0;
   text-align: center;
 }
-#toon{
+/* #toon{
   margin-top: 10%;
-  overflow: hidden;
-  width: 100%;
-}
+} */
 #about-text {
   color: white;
   -webkit-text-stroke-width: 2px;

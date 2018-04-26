@@ -8,8 +8,7 @@ class InfoMain extends React.Component {
 
   render() {
     return ( 
-      <div id="toon">
-        <img src="./src/client/assets/tjaytoonfull.png" />
+      <div id="info">
       </div>
     );
   }
