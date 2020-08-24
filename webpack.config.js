@@ -1,26 +1,11 @@
-'use strict';
-
 const webpack = require('webpack');
-const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const BUILD_DIR = path.resolve(__dirname, 'src/client/public');
-const APP_DIR = path.resolve(__dirname, 'src/client/app');
+const port = process.env.PORT || 3000;
 
-const config = {
-  entry: APP_DIR + '/index.jsx',
+module.exports = {
+  entry: './src/index.js',
   output: {
-    path: BUILD_DIR,
-    filename: 'bundle.js'
-  }, 
-  module: {
-    loaders: [
-      {
-        test: /\.jsx?/,
-        include: APP_DIR,
-        loader: 'babel-loader'
-      }
-    ]
-  }
+    filename: 'bundle.[hash].js'
+  },
 };
-
-module.exports = config;
