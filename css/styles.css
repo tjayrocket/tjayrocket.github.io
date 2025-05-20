@@ -446,6 +446,7 @@ Blog
   margin-top: 3px;
 }
 
+
 /*
 ========================================
 Blurbs
@@ -481,6 +482,17 @@ Blurbs
 .info {
   color: green;
   font-weight: bold;
+}
+
+.blurbs iframe {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#player-bandcamp{
+  width: 425px;
+  height: 425px;
 }
 
 /*
