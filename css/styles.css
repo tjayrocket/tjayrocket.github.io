@@ -179,6 +179,10 @@ Navigation Bar
   padding-left: 50px;
 }
 
+#art{
+  height: 110px;
+}
+
 /*
 ========================================
 Page Content Container
@@ -676,3 +680,4 @@ footer small {
   font-size: 8pt;
   font-weight: normal;
 }
+
