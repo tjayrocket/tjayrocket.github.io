@@ -171,6 +171,14 @@ Navigation Bar
   color: #003399;
 }
 
+#player-bandcamp{
+  border: none;
+  width: 400x;
+  height: 110px;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
 /*
 ========================================
 Page Content Container
@@ -438,8 +446,9 @@ Blog
   grid-auto-rows: 29px;
   flex-direction: column;
   margin-top: 13px;
-  margin-left: 12px;
+  /* margin-left: 12px; */
   margin-bottom: 16px;
+  padding-bottom: 325px;
 }
 
 .blog p {
@@ -490,10 +499,10 @@ Blurbs
   text-align: center;
 }
 
-#player-bandcamp{
-  width: 425px;
-  height: 425px;
-}
+/* #player-bandcamp{
+  width: 452px;
+  height: 452px;
+} */
 
 /*
 ========================================
