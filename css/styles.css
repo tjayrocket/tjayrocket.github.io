@@ -84,6 +84,15 @@ Main Header
   color: #ffffff;
 }
 
+#banner{
+  width: 700px;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 /*
 ========================================
 Search Bar
@@ -173,10 +182,10 @@ Navigation Bar
 
 #player-bandcamp{
   border: none;
-  width: 400x;
-  height: 120px;
-  padding-top: 5px;
-  padding-left: 50px;
+  width: 350px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #art{
@@ -566,6 +575,9 @@ Friend Space
   color: #cc0000;
 }
 
+.profile-pics{
+  width: 90px;
+}
 /*
 ========================================
 Comment Wall
